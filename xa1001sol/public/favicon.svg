@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <title>Oracle Pit</title>
-  <rect width="64" height="64" rx="9" fill="#12100F"/>
-  <circle cx="32" cy="32" r="22" fill="none" stroke="#F2A93B" stroke-width="9"
-          stroke-dasharray="131.3 7" stroke-dashoffset="15.9"/>
-  <circle cx="32" cy="32" r="5.9" fill="#F2A93B"/>
-</svg>

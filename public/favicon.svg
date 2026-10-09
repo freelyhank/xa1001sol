@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <title>Oracle Pit</title>
-  <rect width="64" height="64" rx="9" fill="#12100F"/>
-  <circle cx="32" cy="32" r="22" fill="none" stroke="#F2A93B" stroke-width="9"
-          stroke-dasharray="131.3 7" stroke-dashoffset="15.9"/>
-  <circle cx="32" cy="32" r="5.9" fill="#F2A93B"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Neonline rising trace mark">
+  <title>Neonline</title>
+  <rect width="64" height="64" rx="10" fill="#050508"/>
+  <path d="M13 46 L26 46 L38 18 L51 18" fill="none" stroke="#00F0C8" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
+  <rect x="11" y="44" width="4" height="4" fill="#FF2D9B"/>
+  <rect x="49" y="16" width="4" height="4" fill="#FF2D9B"/>
+  <rect x="22" y="10" width="20" height="3" fill="#FF2D9B"/>
 </svg>
