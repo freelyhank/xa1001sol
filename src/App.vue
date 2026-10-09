@@ -14,7 +14,6 @@ const wallet = createWallet({
 })
 
 const walletState = ref({ ...wallet.state })
-if (typeof window !== 'undefined') window.__neonline = { wallet }
 const walletCatalog = ref(wallet.catalog())
 const walletOpen = ref(false)
 const walletBusy = ref(false)
