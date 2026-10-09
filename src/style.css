@@ -934,6 +934,18 @@ main { position: relative; z-index: 1; }
 
 .rule-list p { font-size: 13px; line-height: 1.72; color: var(--dim); }
 
+.rules-note {
+  max-width: 78ch;
+  margin-top: 20px;
+  padding-left: 14px;
+  border-left: 2px solid var(--edge-2);
+  font-family: var(--mono);
+  font-size: 11px;
+  line-height: 1.8;
+  letter-spacing: .04em;
+  color: var(--dim-2);
+}
+
 /* ==========================================================================
    Desk
    ========================================================================== */

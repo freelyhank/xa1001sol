@@ -315,7 +315,7 @@ onBeforeUnmount(() => {
     <div class="strip">
       <p class="strip-left">
         <span class="live"><i></i>LIVE</span>
-        <span class="strip-dim">{{ wallet.programId ? 'program wired' : 'program pending' }}</span>
+        <span class="strip-dim">{{ wallet.programId ? 'market program wired' : 'every position signed on-chain' }}</span>
       </p>
       <p class="strip-right">
         <span class="strip-dim">cluster</span>
@@ -370,7 +370,8 @@ onBeforeUnmount(() => {
           </h1>
           <p class="lede">
             Every question here runs as a live line. The crowd sets the number, you take a side, and the
-            wallet in your pocket signs it &mdash; no house account, no stand-in wallet, no practice run.
+            wallet in your pocket signs it &mdash; the extension you already run, on the cluster the
+            readout names, with nothing standing in for your key.
             Neonline reads the chain you are actually on and pays out on the terms it publishes.
           </p>
           <div class="hero-cta">
@@ -538,6 +539,11 @@ onBeforeUnmount(() => {
             <p>Your wallet builds and signs the transaction. Neonline never holds your key, and the signature is the receipt the chain keeps.</p>
           </li>
         </ol>
+        <p class="rules-note">
+          The market program is not deployed yet, so a signed position is recorded as an on-chain
+          transaction rather than held in a settlement pool. When the program lands on this cluster,
+          the same button routes the position into it and the pool settles on the published rules.
+        </p>
       </section>
 
       <!-- ============================================================ desk -->
