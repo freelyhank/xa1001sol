@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Neonline rising trace mark">
-  <title>Neonline</title>
-  <rect width="64" height="64" rx="10" fill="#050508"/>
-  <path d="M13 46 L26 46 L38 18 L51 18" fill="none" stroke="#00F0C8" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
-  <rect x="11" y="44" width="4" height="4" fill="#FF2D9B"/>
-  <rect x="49" y="16" width="4" height="4" fill="#FF2D9B"/>
-  <rect x="22" y="10" width="20" height="3" fill="#FF2D9B"/>
-</svg>
